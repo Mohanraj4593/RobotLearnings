@@ -2,4 +2,4 @@ Sl No      Description                                                          
 1       To run ROBOT file                                                                           robot filename.robot
 2       To run Robot Suite with all TCs                                                             robot suitename
 3       To run Robot single/specific TC of robot file(multiple TCs)                                 robot -t "testcasename" filename.robot (ex: robot -t TC1 Test.robot) 
-4       To run robot suite & to move the outputfiles which are generated to specific folder         robot -d "directory path" Suitename (ex: robot -d .\Outputs TestSuite)
+4       To run robot suite & to move the outputfiles which are generated to specific folder         robot -d "directory path" Suitename/Filename.robot (ex: robot -d .\Outputs TestSuite)
